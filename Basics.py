@@ -92,4 +92,23 @@ print(tup1[-1])
 print(tup1[1:3])
 print(len(tup1))
 
+#concate tuple
+tup1=(2,3,4)
+tup2=(5,6,7)
 
+print(tup1+tup2)
+print(tup2+tup1)
+
+# repeating tuple element
+tup1=('hi',30)
+tup2=(4,5,6)
+print(tup1*4)
+print(tup1*4 +tup2)
+print(min(tup2))
+print(max(tup2))
+
+#list -> mutable
+l1=[1,2,'mango',4.5]
+print(l1)
+l1[1]=500
+print(l1)
