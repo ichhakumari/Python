@@ -49,5 +49,47 @@ print(a<b)
 print(a==b)
 print(a!=b)
 
+# string
+a='helllo'
+b="ichha"
+c='''multi
+line
+string'''
+print(a)
+print(b)
+print(c)
+
+# extracting individual char
+string1= "python is a fun language"
+print(string1[0])
+print(string1[-1])
+
+# string function
+print(len(string1)) # length of string
+print(string1.lower())
+print(string1.upper())
+
+#replaceing a substring
+print(string1.replace('is','was'))
+
+# number of occurance of substring
+print(string1.count("a"))
+
+# find -> finding the index of substring
+print(string1.find('fun'))
+
+# split -> splitting a string
+fruits='i like apple,mangoes, banana'
+print(fruits.split(','))
+
+# data structure in python  -> tuple, list , dictionary ,set
+# tuple -> ordered collection, store in(), immutable
+
+tup1=(1,True,8.4,6-3)
+print(tup1)
+print(tup1[0])
+print(tup1[-1])
+print(tup1[1:3])
+print(len(tup1))
 
 
