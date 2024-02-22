@@ -131,4 +131,19 @@ print(l2)
 #concate list
 print(l1+l2)
 
+#Dictionary -> unordered collection of key-value pairs
+fruits={"apple":100, "banana":30, "orange":70}
+print(fruits)
+
+#extract keys
+print(fruits.keys())
+# values
+print(fruits.values())
+# add new element
+fruits["mango"]=50
+print(fruits)
+#change
+fruits["apple"]=10
+print(fruits)
+
 
