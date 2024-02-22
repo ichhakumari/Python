@@ -146,4 +146,12 @@ print(fruits)
 fruits["apple"]=10
 print(fruits)
 
+#update -> upadte one dic element with other
+d1={"apple":20, "orange":40}
+d2={ "banana":10, "mango":50}
+d1.update(d2)
+print(d1)
 
+#pop elemnt
+d1.pop("orange")
+print(d1)
