@@ -112,3 +112,23 @@ l1=[1,2,'mango',4.5]
 print(l1)
 l1[1]=500
 print(l1)
+
+l1=[1,2,'mango',4.5]
+l1.pop(-1)
+print(l1)
+l1.append('ichha')
+print(l1)
+#reverse element
+l1.reverse()
+print(l1)
+# sort list
+l2=[8,3,9,37,43,3,5,]
+l2.sort()
+print(l2)
+#insert at specific index
+l2.insert(1,100)
+print(l2)
+#concate list
+print(l1+l2)
+
+
