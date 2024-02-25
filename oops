@@ -1,1 +1,17 @@
+# oops in python
+class Phone:
+  def make_call(self):
+    print("making call")
+
+  def play_game(self):
+    print("playing games")
+
+#creating instnces / object of class
+p1=Phone()
+
+#invokig methods
+p1.make_call()
+
+p1.play_game()
+
 
