@@ -37,3 +37,21 @@ print(p2.show_color())
 print(p2.show_cost())
 
 
+#constructor
+class Employee:
+   def __init__(self,name,age,salary,gender):   #constructor
+     self.name = name
+     self.age = age
+     self.salary = salary
+     self.gender = gender
+
+   def show_details(self):
+    print("Name of employee is" ,self.name)
+    print("Age of employee is" ,self.age)
+    print("salary of employee is" ,self.salary)
+    print("gender of employee is" ,self.gender)
+
+e1= Employee('ram',32,50000,'male')
+
+e1.show_details()
+
