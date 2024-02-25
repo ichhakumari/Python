@@ -55,3 +55,27 @@ e1= Employee('ram',32,50000,'male')
 
 e1.show_details()
 
+#Inheritance
+#base class
+class Vehicle:
+    def __init__(self, mileage, cost):
+        self.mileage = mileage
+        self.cost = cost
+
+    def show_details(self):
+        print("mileage of vehicle is", self.mileage)
+        print("cost of vehicle is", self.cost)
+
+v1= Vehicle(300,500000)
+v1.show_details()
+
+#child class
+
+class car(Vehicle):    #inherit vehicle class
+  def show_car_details(self):
+      print("i am car")
+
+c1=car(250,4000)
+c1.show_details()
+c1.show_car_details()
+
