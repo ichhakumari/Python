@@ -79,3 +79,17 @@ c1=car(250,4000)
 c1.show_details()
 c1.show_car_details()
 
+#overridding
+class bike(Vehicle):
+  def __init__(self, mileage, cost, tyres, hp):
+     super().__init__(mileage, cost)
+     self.tyres = tyres
+     self.hp = hp
+
+  def show_bike_details(self):
+      print("no of tyres in bike:", self.tyres)
+      print("horse power of bike is:", self.hp)
+
+b1 = bike(300, 50000, 2, 989)
+b1.show_bike_details()
+
