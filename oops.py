@@ -127,3 +127,21 @@ d1.assign_string_three("three")
 print(d1.show_str_one())
 print(d1.show_str_two())
 print(d1.show_str_three())
+
+
+#multilevel -> prent->child->grand child
+class GrandChild(Derived):
+  def assign_naam(self,naam):
+    self.naam=naam
+
+  def show_naam(self):
+    return self.naam
+
+g1= GrandChild()
+g1.assign_naam("grand child")
+g1.assign_string_one("parent one")
+g1.assign_string_three("child one")
+
+print(g1.show_naam())
+print(g1.show_str_one())
+print(g1.show_str_three())
