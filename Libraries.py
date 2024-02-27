@@ -32,3 +32,12 @@ n2=np.arange(10,50,5)    #(start,end, gap)
 print(n2)
 
 
+# random number generation -> random.randint(start,end,no of random number)
+import numpy as np
+r1=np.random.randint(1,100,3)
+print(r1)
+
+r2=np.random.randint(1,100,10)
+print(r2)
+
+
