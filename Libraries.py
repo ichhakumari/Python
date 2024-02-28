@@ -40,4 +40,15 @@ print(r1)
 r2=np.random.randint(1,100,10)
 print(r2)
 
+# change shape of array
+import numpy as np
+a1=np.array([[11,12,3,2,],[5,6,77,44]]) #(2,4)
+print(a1)
+
+a1.shape=(4,2)
+print(a1)
+
+a1.shape=(8,1)
+print(a1)
+
 
