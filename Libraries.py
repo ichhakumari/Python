@@ -52,3 +52,16 @@ a1.shape=(8,1)
 print(a1)
 
 
+#Joining numpy array
+#1.vstack()-> vertically,hstack()-> horizontally 3.column_stack
+import numpy as np
+n1=np.array([22,33,44,55])
+n2=np.array([21,32,33,54])
+print(np.vstack((n1,n2)))   #vstack
+
+#hstack
+print(np.hstack((n1,n2)))
+
+#column_stack
+print(np.column_stack((n1,n2)))
+
