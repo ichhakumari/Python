@@ -76,3 +76,11 @@ print(np.intersect1d(n1,n2))
 print(np.setdiff1d(n1,n2))
 print(np.setdiff1d(n2,n1))
 
+
+#mean , median,standard division
+import numpy as np
+n1=np.array([10,20,30,40])
+
+print(np.mean(n1))
+
+
