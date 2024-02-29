@@ -65,3 +65,14 @@ print(np.hstack((n1,n2)))
 #column_stack
 print(np.column_stack((n1,n2)))
 
+
+#numpy Intersection(same) & diffrence
+import numpy as np
+n1=np.array([10,20,30,40])
+n2=np.array([30,40,50,60,70])
+
+print(np.intersect1d(n1,n2))
+
+print(np.setdiff1d(n1,n2))
+print(np.setdiff1d(n2,n1))
+
