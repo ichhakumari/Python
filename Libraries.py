@@ -85,3 +85,17 @@ print(np.mean(n1))
 print(np.median(n1))
 print(np.std(n1))
 
+#mathemtics
+#sum of whole array
+import numpy as np
+n1=np.array([10,20])
+n2=np.array([30,40])
+print(np.sum([n1,n2]))
+
+#only column->axis=0
+print(np.sum([n1,n2],axis=0))
+
+#only row->axis=1
+print(np.sum([n1,n2],axis=1))
+
+
