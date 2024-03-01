@@ -122,3 +122,10 @@ print(s1)
 print(s2)
 print(type(s1))
 
+
+#create serial object from a  dictionary
+import pandas as pd
+pd.Series({'a':10,'b':20,'c':30})
+#change index
+pd.Series({'a':10,'b':20,'c':30},index=['b','c','a','d'])
+
