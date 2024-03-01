@@ -129,3 +129,16 @@ pd.Series({'a':10,'b':20,'c':30})
 #change index
 pd.Series({'a':10,'b':20,'c':30},index=['b','c','a','d'])
 
+#extracting a single element
+s1=pd.Series([1,2,3,4,5])
+print(s1[3])
+
+#extracting element fron back
+print(s1[-3:])
+
+#extracting series of element
+print(s1[:2])
+
+#adding scalar vallue on series elemt
+print(s1 + 2)
+
