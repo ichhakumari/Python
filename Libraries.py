@@ -112,3 +112,13 @@ n1=n1/2
 print(n1)
 
 
+#pandas(panel data) -> data manipulation
+#ds in pandas -> 1. series(one dimenstion labeled data) 2.Data frame(multidimention labelled data -row nd column)
+
+import pandas as pd
+s1=pd.Series([1,2,3,4,5])
+s2=pd.Series([1,2,3,4,5],index=['a','b','c','d','e'])
+print(s1)
+print(s2)
+print(type(s1))
+
