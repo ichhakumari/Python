@@ -142,3 +142,10 @@ print(s1[:2])
 #adding scalar vallue on series elemt
 print(s1 + 2)
 
+#adding two series
+s2=pd.Series([11,22,33,44,10,20,30])
+print(s1+s2)
+
+#other operations
+print(s1-1)
+print(s1/2)
