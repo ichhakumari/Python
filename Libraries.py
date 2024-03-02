@@ -156,9 +156,16 @@ import pandas as pd
 pd.DataFrame({"Name":['ram','sita','lakshman'],"marks":[80,87,89]})
 
 
-################################################
+# HOW TO WORK ON DATASETS.................................
+
+# 1. IMPORT DATA SET
 from google.colab import files
 
 
 uploaded = files.upload()
 
+import pandas as pd
+import io
+#store csv file in df variable..
+df = pd.read_csv(io.BytesIO(uploaded['titanic_train.csv']))
+print(df)
