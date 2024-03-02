@@ -154,3 +154,11 @@ print(s1/2)
 #2.Data frame(multidimention labelled data -row nd column)
 import pandas as pd
 pd.DataFrame({"Name":['ram','sita','lakshman'],"marks":[80,87,89]})
+
+
+################################################
+from google.colab import files
+
+
+uploaded = files.upload()
+
