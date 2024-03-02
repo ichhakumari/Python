@@ -149,3 +149,8 @@ print(s1+s2)
 #other operations
 print(s1-1)
 print(s1/2)
+
+
+#2.Data frame(multidimention labelled data -row nd column)
+import pandas as pd
+pd.DataFrame({"Name":['ram','sita','lakshman'],"marks":[80,87,89]})
