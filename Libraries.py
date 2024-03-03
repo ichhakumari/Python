@@ -177,3 +177,5 @@ df.head()
 # for last 5 record
 df.tail()
 
+# to see total no of row and column
+df.shape
