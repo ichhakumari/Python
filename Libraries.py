@@ -174,3 +174,6 @@ print(df)
 #for printing first 5 data
 df.head()
 
+# for last 5 record
+df.tail()
+
