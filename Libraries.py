@@ -169,3 +169,8 @@ import io
 #store csv file in df variable..
 df = pd.read_csv(io.BytesIO(uploaded['titanic_train.csv']))
 print(df)
+
+
+#for printing first 5 data
+df.head()
+
