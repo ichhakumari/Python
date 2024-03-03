@@ -179,3 +179,7 @@ df.tail()
 
 # to see total no of row and column
 df.shape
+
+#to extract special column or row details...for ex: from row5 to11 and 3-5 column
+#use iloc -work with index value
+df.iloc[5:11,3:6]
