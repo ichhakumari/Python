@@ -187,3 +187,5 @@ df.iloc[5:11,3:6]
 # use loc - work with names of rows and columns
 df.loc[0:3,("Name","Age")]
 
+#drop row (axis=0) column(axis=1)
+df.head()
