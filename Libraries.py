@@ -189,3 +189,6 @@ df.loc[0:3,("Name","Age")]
 
 #drop row (axis=0) column(axis=1)
 df.head()
+
+df.drop('Pclass',axis=1)
+
