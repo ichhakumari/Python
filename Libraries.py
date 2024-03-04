@@ -183,3 +183,7 @@ df.shape
 #to extract special column or row details...for ex: from row5 to11 and 3-5 column
 #use iloc -work with index value
 df.iloc[5:11,3:6]
+
+# use loc - work with names of rows and columns
+df.loc[0:3,("Name","Age")]
+
