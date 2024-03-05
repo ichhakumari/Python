@@ -196,3 +196,4 @@ df.drop('Pclass',axis=1)
 df1=df.drop([1,3,5],axis=0)
 df1
 
+df1.head(10)
