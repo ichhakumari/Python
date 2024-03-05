@@ -192,3 +192,7 @@ df.head()
 
 df.drop('Pclass',axis=1)
 
+#drop rows
+df1=df.drop([1,3,5],axis=0)
+df1
+
