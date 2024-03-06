@@ -204,3 +204,4 @@ df.mean()
 
 df.median()
 
+df.min()
