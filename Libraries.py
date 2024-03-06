@@ -201,3 +201,6 @@ df1.head(10)
 
 #pandas functions
 df.mean()
+
+df.median()
+
