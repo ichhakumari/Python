@@ -218,4 +218,7 @@ print(df[['Age','Fare']].apply(half))
 #value count
 df['Sex'].value_counts()
 
+#sort_values
+df.sort_values(by='Age')
+
 
