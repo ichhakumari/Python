@@ -233,3 +233,5 @@ print(x)
 y=x*2
 print(y)
 
+plt.plot(x,y)
+plt.show()
