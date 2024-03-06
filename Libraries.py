@@ -214,3 +214,8 @@ def half(s):
   return s*0.5
 
 print(df[['Age','Fare']].apply(half))
+
+#value count
+df['Sex'].value_counts()
+
+
