@@ -208,3 +208,9 @@ df.min()
 
 df.max()
 
+# half method
+
+def half(s):
+  return s*0.5
+
+print(df[['Age','Fare']].apply(half))
