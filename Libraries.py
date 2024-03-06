@@ -222,3 +222,14 @@ df['Sex'].value_counts()
 df.sort_values(by='Age')
 
 
+#Mathplotlib libraries  - used for data visualization
+
+#line plot
+import numpy as np
+from matplotlib import pyplot as plt
+
+x=np.arange(1,11)
+print(x)
+y=x*2
+print(y)
+
