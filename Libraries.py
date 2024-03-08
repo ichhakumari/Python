@@ -242,3 +242,8 @@ plt.title("Line plot")
 plt.xlabel("x-label")
 plt.ylabel("y-label")
 plt.show()
+
+
+#change line style..ex: color,style
+plt.plot(x,y,color='r',linestyle=':',linewidth=5)
+plt.show()
