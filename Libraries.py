@@ -235,3 +235,10 @@ print(y)
 
 plt.plot(x,y)
 plt.show()
+
+#add title and labels in graph
+plt.plot(x,y)
+plt.title("Line plot")
+plt.xlabel("x-label")
+plt.ylabel("y-label")
+plt.show()
