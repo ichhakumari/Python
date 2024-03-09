@@ -263,4 +263,17 @@ plt.ylabel("y-axis")
 plt.grid(True)
 plt.show()
 
+# adidng subplots
+x=np.arange(1,11)
+y1=2*x
+y2=3*x
+
+plt.subplot(1,2,1)
+plt.plot(x,y1,color='g',linestyle=':',linewidth='3')
+plt.title("line plot1")
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.grid(True)
+
+
 
