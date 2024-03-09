@@ -247,3 +247,13 @@ plt.show()
 #change line style..ex: color,style
 plt.plot(x,y,color='r',linestyle=':',linewidth=5)
 plt.show()
+
+
+#two lines graph
+x=np.arange(1,11)
+y1=2*x
+y2=3*x
+
+plt.plot(x,y1,color='g',linestyle=':',linewidth='3')
+plt.plot(x,y2,color='r',linestyle='-',linewidth='2')
+
