@@ -276,4 +276,12 @@ plt.ylabel("y-axis")
 plt.grid(True)
 
 
+plt.subplot(1,2,2)
+plt.plot(x,y2,color='r',linestyle='-',linewidth='2')
+
+plt.title("line plot2")
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.grid(True)
+plt.show()
 
