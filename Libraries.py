@@ -257,3 +257,10 @@ y2=3*x
 plt.plot(x,y1,color='g',linestyle=':',linewidth='3')
 plt.plot(x,y2,color='r',linestyle='-',linewidth='2')
 
+plt.title("line plot")
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.grid(True)
+plt.show()
+
+
