@@ -308,3 +308,21 @@ plt.grid(True)
 plt.show()
 
 
+
+
+
+#Bar plot
+student={"bunty":8,"megha":100,"jay":59}
+names=list(student.keys())
+values=list(student.values())
+
+
+plt.title("Bar plot")
+plt.xlabel("students")
+plt.ylabel("marks of student")
+plt.grid(True)
+
+plt.bar(names,values)
+plt.show()
+
+
