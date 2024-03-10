@@ -318,6 +318,24 @@ values=list(student.values())
 
 
 plt.title("Bar plot")
+
+
+
+
+#Horizontal Bar plot
+student={"bunty":18,"megha":100,"jay":59}
+names=list(student.keys())
+values=list(student.values())
+
+
+plt.title("Horizontal-Bar plot")
+plt.xlabel("marks of students")
+plt.ylabel(" student")
+plt.grid(True)
+
+plt.barh(names,values)  #h for horizontal
+plt.show()
+
 plt.xlabel("students")
 plt.ylabel("marks of student")
 plt.grid(True)
