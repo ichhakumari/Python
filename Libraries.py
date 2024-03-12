@@ -364,3 +364,6 @@ a=[8,4,7,9,5,3,12,22]
 b=[7,3,6,10,4,11,21,5]
 
 plt.scatter(x,a, marker="*", c="g",s=100.0)
+plt.scatter(x,b, marker=".", c="r",s=200.0)
+plt.show()
+
