@@ -367,3 +367,6 @@ plt.scatter(x,a, marker="*", c="g",s=100.0)
 plt.scatter(x,b, marker=".", c="r",s=200.0)
 plt.show()
 
+
+
+#  subplot-Scatter plot
