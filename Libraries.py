@@ -390,4 +390,9 @@ b=[7,3,6,10,4,11,21,5]
 plt.subplot(2,1,1)
 plt.scatter(x,a, marker="*", c="g",s=100.0)
 
+plt.subplot(2,1,2)
+plt.scatter(x,b, marker=".", c="r",s=200.0)
+plt.show()
+
+
 
