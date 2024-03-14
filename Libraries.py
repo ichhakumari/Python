@@ -370,7 +370,7 @@ plt.show()
 
 
 #  subplot-Scatter plot
-#  subplot-Scatter plot
+
 x=[10,20,30,40,50,60,70,80]
 a=[8,4,7,9,5,3,12,22]
 b=[7,3,6,10,4,11,21,5]
