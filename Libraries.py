@@ -401,4 +401,6 @@ plt.hist(data,color="c",bins=5)
 plt.show()
 
 
+#working with datasets
+titanic= pd.read_csv(io.BytesIO(uploaded['titanic_train.csv']))
 
