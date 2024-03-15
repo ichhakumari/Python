@@ -395,4 +395,10 @@ plt.scatter(x,b, marker=".", c="r",s=200.0)
 plt.show()
 
 
+#histogram
+data=[1,3,4,9,5,9,10,7]
+plt.hist(data,color="c",bins=5)
+plt.show()
+
+
 
