@@ -403,4 +403,6 @@ plt.show()
 
 #working with datasets
 titanic= pd.read_csv(io.BytesIO(uploaded['titanic_train.csv']))
+plt.hist(titanic['Age'],color="r",bins=30)
+plt.show()
 
