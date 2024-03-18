@@ -427,3 +427,11 @@ data=list([one,two,three])
 
 plt.violinplot(data,showmedians=True)
 plt.show()
+
+
+#paichart
+fruits=['apple','banana','mango','gauva']
+quantity=[67,32,98,45]
+
+plt.pie(quantity,labels=fruits)
+plt.show()
