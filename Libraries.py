@@ -435,3 +435,9 @@ quantity=[67,32,98,45]
 
 plt.pie(quantity,labels=fruits)
 plt.show()
+
+
+# Add % in pie chart
+plt.pie(quantity,labels=fruits,autopct='%0.1f%%',colors=['yellow','grey','blue','green'])
+plt.show()
+
