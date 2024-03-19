@@ -445,3 +445,7 @@ plt.show()
 #Doughnut-chart
 fruits=['apple','banana','mango','gauva']
 quantity=[67,32,98,45]
+
+plt.pie(quantity,labels=fruits,radius=2)  #outer circle
+plt.pie([1],colors=['w'],radius=1)  #inner circle
+plt.show()
