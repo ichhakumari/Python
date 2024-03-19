@@ -441,3 +441,7 @@ plt.show()
 plt.pie(quantity,labels=fruits,autopct='%0.1f%%',colors=['yellow','grey','blue','green'])
 plt.show()
 
+
+#Doughnut-chart
+fruits=['apple','banana','mango','gauva']
+quantity=[67,32,98,45]
