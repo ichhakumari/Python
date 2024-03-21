@@ -463,3 +463,8 @@ fmri.head()
 #show timepoints and signal on a graph
 import seaborn as sns
 from matplotlib import pyplot as plt
+
+#inbulit dataset access
+fmri=sns.load_dataset("fmri")
+fmri.head()
+
