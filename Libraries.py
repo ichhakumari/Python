@@ -468,3 +468,6 @@ from matplotlib import pyplot as plt
 fmri=sns.load_dataset("fmri")
 fmri.head()
 
+sns.lineplot(x="timepoint", y="signal", data=fmri)
+plt.show()
+
