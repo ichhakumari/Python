@@ -471,3 +471,7 @@ fmri.head()
 sns.lineplot(x="timepoint", y="signal", data=fmri)
 plt.show()
 
+#Grouping data with "hue"
+
+import seaborn as sns
+from matplotlib import pyplot as plt
