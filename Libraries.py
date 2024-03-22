@@ -479,3 +479,7 @@ from matplotlib import pyplot as plt
 #inbulit dataset access
 fmri=sns.load_dataset("fmri")
 fmri.head()
+
+
+sns.lineplot(x="timepoint", y="signal", data=fmri,hue="event")
+plt.show()
