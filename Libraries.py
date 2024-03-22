@@ -475,3 +475,7 @@ plt.show()
 
 import seaborn as sns
 from matplotlib import pyplot as plt
+
+#inbulit dataset access
+fmri=sns.load_dataset("fmri")
+fmri.head()
