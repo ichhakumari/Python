@@ -480,6 +480,17 @@ from matplotlib import pyplot as plt
 fmri=sns.load_dataset("fmri")
 fmri.head()
 
-
 sns.lineplot(x="timepoint", y="signal", data=fmri,hue="event")
+plt.show()
+
+#adding style
+#show timepoints and signal on a graph
+import seaborn as sns
+from matplotlib import pyplot as plt
+
+#inbulit dataset access
+fmri=sns.load_dataset("fmri")
+fmri.head()
+
+sns.lineplot(x="timepoint", y="signal", data=fmri,style="event",hue="event")
 plt.show()
