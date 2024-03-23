@@ -494,3 +494,9 @@ fmri.head()
 
 sns.lineplot(x="timepoint", y="signal", data=fmri,style="event",hue="event")
 plt.show()
+
+
+#Adding marker
+
+import seaborn as sns
+from matplotlib import pyplot as plt
