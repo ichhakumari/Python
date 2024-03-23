@@ -503,3 +503,9 @@ from matplotlib import pyplot as plt
 
 sns.lineplot(x="timepoint", y="signal", data=fmri, markers=True,style="event", hue="event")
 plt.show()
+
+
+from google.colab import files
+
+
+uploaded = files.upload()
