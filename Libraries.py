@@ -509,3 +509,9 @@ from google.colab import files
 
 
 uploaded = files.upload()
+
+import pandas as pd
+import io
+
+pokemon = pd.read_csv(io.BytesIO(uploaded['pokedex_(Update.04.20).csv']))
+print(pokemon)
