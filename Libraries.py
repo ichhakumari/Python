@@ -500,3 +500,6 @@ plt.show()
 
 import seaborn as sns
 from matplotlib import pyplot as plt
+
+sns.lineplot(x="timepoint", y="signal", data=fmri, markers=True,style="event", hue="event")
+plt.show()
