@@ -515,3 +515,7 @@ import io
 
 pokemon = pd.read_csv(io.BytesIO(uploaded['pokedex_(Update.04.20).csv']))
 print(pokemon)
+
+sns.set(style="whitegrid")
+sns.barplot(x="is_legendary", y="speed", data=pokemon)
+plt.show()
