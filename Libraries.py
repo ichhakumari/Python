@@ -522,3 +522,6 @@ plt.show()
 
 sns.barplot(x="is_legendary",y="weight_kg",data=pokemon)
 plt.show()
+
+sns.barplot(x="is_legendary",y="weight_kg", hue="generation",data=pokemon)
+plt.show()
