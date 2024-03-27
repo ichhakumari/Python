@@ -529,3 +529,6 @@ plt.show()
 #use diffrents graph color - palette
 sns.barplot(x="is_legendary", y="speed", data=pokemon, palette='Blues_d')
 plt.show()
+
+sns.barplot(x="is_legendary", y="speed", data=pokemon, palette='rocket')
+plt.show()
