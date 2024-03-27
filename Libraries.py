@@ -535,3 +535,8 @@ plt.show()
 
 sns.barplot(x="is_legendary", y="speed", data=pokemon, palette='vlag')
 plt.show()
+
+import seaborn as sns
+from matplotlib import pyplot as plt
+sns.barplot(x="is_legendary",y="speed", hue="generation",data=pokemon)
+plt.show()
