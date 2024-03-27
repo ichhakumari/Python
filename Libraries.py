@@ -532,3 +532,6 @@ plt.show()
 
 sns.barplot(x="is_legendary", y="speed", data=pokemon, palette='rocket')
 plt.show()
+
+sns.barplot(x="is_legendary", y="speed", data=pokemon, palette='vlag')
+plt.show()
