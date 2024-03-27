@@ -540,3 +540,8 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 sns.barplot(x="is_legendary",y="speed", hue="generation",data=pokemon)
 plt.show()
+
+#use special color of graph
+sns.barplot(x="is_legendary", y="speed", data=pokemon, color="orange")
+plt.show()
+
