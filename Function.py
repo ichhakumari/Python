@@ -24,6 +24,14 @@ def converter(usd_value):
     print(usd_value ,'usd=', inr_value ,"inr")
 
 
+#  calculate week left in your life  
+def life_in_week(age):
+    life=(90-age) *52
+    print(f" you have {life} week left")
+
+
+life_in_week(21)  # you have 3588 week left
+
 # Funtion call
 converter(2000)       # 166000
 cal_fact(4)           # 24
